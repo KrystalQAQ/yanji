@@ -1,0 +1,104 @@
+
+.lists .listr .d2.data-v-986228fc {
+    background: none;
+    padding-right: 0;
+    height: 55px;
+    line-height: 55px;
+}
+.lists .listr .d1.data-v-986228fc {
+    height: 55px;
+    line-height: 55px;
+    box-sizing: border-box;
+    border-bottom: 1rpx solid #eee;
+    font-size: 15px;
+    color: #333;
+    justify-content: space-between;
+}
+.lists .listr .d1.data-v-986228fc,.lists .listr .d1 .iconl.data-v-986228fc {
+    display: flex;
+    align-items: center;
+}
+.lists .listr .d1 .icon.data-v-986228fc {
+    width: 25px;
+    height: 25px;
+    border-radius: 25px;
+    margin-right: 10px;
+}
+.lists .listr .d1 .icon_book.data-v-986228fc {
+    width: 25px;
+    height: 25px;
+    background: url(https://static-1253713495.file.myqcloud.com/miniapps/jizhang/images/38.png) no-repeat 0;
+    background-size: auto 20px;
+    opacity: .8;
+}
+.booktypelist.data-v-986228fc {
+    padding: 15px;
+    box-sizing: border-box;
+    position: fixed;
+    background-color: #f8f8f8;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    z-index: 2;
+}
+.typelist.data-v-986228fc {
+    box-shadow: 0 0 15px hsla(0,0%,58.8%,.1);
+    background-color: #fff;
+    border-radius: 5px;
+    overflow: hidden;
+    margin-top: 15px;
+}
+.typelist .label.data-v-986228fc {
+    display: flex;
+    justify-content: space-between;
+    padding: 13px 10px 13px 15px;
+}
+.typelist .label .img.data-v-986228fc {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.typelist .label .img1.data-v-986228fc {
+    width: 40px;
+    height: 40px;
+    border-radius: 30px;
+}
+.typelist .label .left.data-v-986228fc {
+    display: flex;
+    align-items: center;
+}
+.typelist .label .text.data-v-986228fc {
+    padding-left: 10px;
+}
+.typelist .label .right.data-v-986228fc {
+    display: flex;
+    align-items: center;
+}
+.typelist .label .info.data-v-986228fc {
+    font-size: 12px;
+    color: #969696;
+}
+.typelist .label .icon_book.data-v-986228fc {
+    width: 25px;
+    height: 25px;
+    background: url(https://static-1253713495.file.myqcloud.com/miniapps/jizhang/images/38.png) no-repeat 0;
+    background-size: auto 20px;
+    opacity: .8;
+}
+.lists .checkboxChange .listr .d2.data-v-986228fc {
+    background: none;
+    padding-right: 0;
+    height: 45px;
+    line-height: 45px;
+}
+.lists .checkboxChange .listr .d1.data-v-986228fc {
+    height: 45px;
+    line-height: 45px;
+    box-sizing: border-box;
+    border-bottom: 1rpx solid #eee;
+    font-size: 15px;
+    color: #333;
+    display: block;
+}
+

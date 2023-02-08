@@ -9832,7 +9832,7 @@ var k = m({
         "192.168.74.1"
     ],
     "debugPort": 9000,
-    "initialLaunchType": "local",
+    "initialLaunchType": "remote",
     "servePort": 7000,
     "skipFiles": [
         "<node_internals>/**",
@@ -16831,14 +16831,56 @@ var _default = {
   "pages": [{
     "path": "pages/index/index",
     "style": {
+      "navigationBarTitleText": "",
+      "navigationStyle": "custom"
+    }
+  }, {
+    "path": "pages/login/login",
+    "style": {
+      "navigationBarTitleText": "登录"
+    }
+  }, {
+    "path": "pages/my/index/index",
+    "style": {
       "navigationBarTitleText": "燕迹"
+    }
+  }, {
+    "path": "pages/zy/zy",
+    "style": {
+      "navigationBarTitleText": "主页"
+    }
+  }, {
+    "path": "pages/add/add",
+    "style": {
+      "navigationBarTitleText": "添加账目"
+    }
+  }, {
+    "path": "pages/book/detail/detail",
+    "style": {
+      "navigationBarTitleText": "",
+      "backgroundColor": "#f8f8f8"
+    }
+  }, {
+    "path": "pages/book/list/list",
+    "style": {
+      "navigationBarTextStyle": "black",
+      "navigationBarBackgroundColor": "#f8f8f8",
+      "enablePullDownRefresh": true,
+      "backgroundTextStyle": "dark",
+      "navigationBarTitleText": "我的账本"
+    }
+  }, {
+    "path": "pages/book/edit/edit",
+    "style": {
+      "navigationBarTitleText": "创建新的账本"
     }
   }],
   "globalStyle": {
-    "navigationBarTextStyle": "black",
-    "navigationBarTitleText": "uni-app",
-    "navigationBarBackgroundColor": "#F8F8F8",
-    "backgroundColor": "#F8F8F8"
+    "backgroundTextStyle": "light",
+    "navigationBarTextStyle": "white",
+    "navigationBarTitleText": "",
+    "navigationBarBackgroundColor": "#588aff",
+    "backgroundColor": "#f8f8f8"
   },
   "uniIdRouter": {}
 };

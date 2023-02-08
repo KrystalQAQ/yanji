@@ -33,44 +33,35 @@
 			"title": "性别",
 			"description": "用户性别：0 未知 1 男性 2 女性",
 			"defaultValue": 0,
-			"enum": [
-				{
-					"text": "未知",
-					"value": 0
-				},
-				{
-					"text": "男",
-					"value": 1
-				},
-				{
-					"text": "女",
-					"value": 2
-				}
-			]
+			"enum": [{
+				"text": "未知",
+				"value": 0
+			}, {
+				"text": "男",
+				"value": 1
+			}, {
+				"text": "女",
+				"value": 2
+			}]
 		},
 		"status": {
 			"bsonType": "int",
 			"description": "用户状态：0 正常 1 禁用 2 审核中 3 审核拒绝",
 			"title": "用户状态",
 			"defaultValue": 0,
-			"enum": [
-				{
-					"text": "正常",
-					"value": 0
-				},
-				{
-					"text": "禁用",
-					"value": 1
-				},
-				{
-					"text": "审核中",
-					"value": 2
-				},
-				{
-					"text": "审核拒绝",
-					"value": 3
-				}
-			]
+			"enum": [{
+				"text": "正常",
+				"value": 0
+			}, {
+				"text": "禁用",
+				"value": 1
+			}, {
+				"text": "审核中",
+				"value": 2
+			}, {
+				"text": "审核拒绝",
+				"value": 3
+			}]
 		},
 		"mobile": {
 			"bsonType": "string",
@@ -84,16 +75,13 @@
 			"description": "手机号验证状态：0 未验证 1 已验证",
 			"title": "手机号验证状态",
 			"defaultValue": 0,
-			"enum": [
-				{
-					"text": "未验证",
-					"value": 0
-				},
-				{
-					"text": "已验证",
-					"value": 1
-				}
-			]
+			"enum": [{
+				"text": "未验证",
+				"value": 0
+			}, {
+				"text": "已验证",
+				"value": 1
+			}]
 		},
 		"email": {
 			"bsonType": "string",
@@ -107,16 +95,13 @@
 			"description": "邮箱验证状态：0 未验证 1 已验证",
 			"title": "邮箱验证状态",
 			"defaultValue": 0,
-			"enum": [
-				{
-					"text": "未验证",
-					"value": 0
-				},
-				{
-					"text": "已验证",
-					"value": 1
-				}
-			]
+			"enum": [{
+				"text": "未验证",
+				"value": 0
+			}, {
+				"text": "已验证",
+				"value": 1
+			}]
 		},
 		"avatar": {
 			"bsonType": "string",
@@ -339,10 +324,7 @@
 		"realname_auth": {
 			"bsonType": "object",
 			"description": "实名认证信息",
-			"required": [
-				"type",
-				"auth_status"
-			],
+			"required": ["type", "auth_status"],
 			"properties": {
 				"type": {
 					"bsonType": "int",
@@ -362,11 +344,11 @@
 				},
 				"real_name": {
 					"bsonType": "string",
-					"description": "真实姓名/企业名称"
+					"description": "真实姓名\/企业名称"
 				},
 				"identity": {
 					"bsonType": "string",
-					"description": "身份证号码/营业执照号码"
+					"description": "身份证号码\/营业执照号码"
 				},
 				"id_card_front": {
 					"bsonType": "string",

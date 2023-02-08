@@ -1,4 +1,5 @@
 {
-  "navigationBarTitleText": "燕迹",
+  "navigationBarTitleText": "",
+  "navigationStyle": "custom",
   "usingComponents": {}
 }

@@ -1,0 +1,1 @@
+<view class="content"><view class="flex padding justify-center">{{''+nickName+''}}<button data-event-opts="{{[['tap',[['getUserInfo',['$event']]]]]}}" class="cu-btn round bg-red" bindtap="__e">立即登录</button></view></view>

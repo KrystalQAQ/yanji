@@ -1,13 +1,21 @@
 {
   "pages": [
-    "pages/index/index"
+    "pages/index/index",
+    "pages/login/login",
+    "pages/my/index/index",
+    "pages/zy/zy",
+    "pages/add/add",
+    "pages/book/detail/detail",
+    "pages/book/list/list",
+    "pages/book/edit/edit"
   ],
   "subPackages": [],
   "window": {
-    "navigationBarTextStyle": "black",
-    "navigationBarTitleText": "uni-app",
-    "navigationBarBackgroundColor": "#F8F8F8",
-    "backgroundColor": "#F8F8F8"
+    "backgroundTextStyle": "light",
+    "navigationBarTextStyle": "white",
+    "navigationBarTitleText": "",
+    "navigationBarBackgroundColor": "#588aff",
+    "backgroundColor": "#f8f8f8"
   },
   "usingComponents": {}
 }
